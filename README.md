@@ -4,6 +4,10 @@ ConnectN is a multiplayer game that allows interactive or non-interactive users 
 How to Play:
 The interface will direct you through the directions of how to play the game and will prompt the user for how many columns they wish their scaffold to hold. Then it will ask the user what column number they wish to drop their token within, if the column is not a possible value, it will inform the user and prompt them again for a column number. It will then print a visual of the game and which columns have tiles placed in them and the color of those tiles. After someone wins the game, the computer will inform the user and state who has won the game.
 
+
+
+
+Design of Classes:
 Game: 
 Play function : My game uses a play function that checks if the game is completed and then checks if the player whos turn it is is an interactive player or not. If it is an interactive player it will take the turn and then immediately display the screen. Iti s not interactive and it notices that it has been five turns then it will prompt the user to press enter to continue. 
 
